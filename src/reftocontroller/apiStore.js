@@ -1,4 +1,4 @@
-import Express from 'Express'
+import express from 'express'
 import storeController from '../controller/storeController'
 import checkController from '../service/JwtService'
 import multer from 'multer'
