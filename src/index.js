@@ -1,4 +1,4 @@
-import express from 'express'
+let express = require('express')
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
 import bodyParser, { urlencoded } from 'body-parser'
