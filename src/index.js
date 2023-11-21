@@ -3,8 +3,8 @@
 // import cookieParser from 'cookie-parser'
 // import bodyParser, { urlencoded } from 'body-parser'
 // import * as path from 'path';
-// import Reftocontroller_Store from './reftocontroller/apiStore';
-// import { connect_db, check_connect } from './model/database'
+import Reftocontroller_Store from './reftocontroller/apiStore';
+import { connect_db, check_connect } from './model/database'
 // //env
 // require('dotenv').config()
 // //express
@@ -51,8 +51,8 @@ let cors = require('cors');
 let cookieParser = require('cookie-parser');
 let bodyParser = require('body-parser');
 let path = require('path');
-let Reftocontroller_Store = require('./reftocontroller/apiStore');
-let { connect_db, check_connect } = require('./model/database');
+// let Reftocontroller_Store = require('./reftocontroller/apiStore');
+// let { connect_db, check_connect } = require('./model/database');
 
 //env
 require('dotenv').config();
