@@ -27,7 +27,7 @@ const uploadAvatar = multer({ storage: storage }).single('image') //set noi luu 
 const uploadImgProd = multer({ storage: storageImgProd }).single('image') //set noi luu file
 
 //sử dụng module.export obj khi import sẽ sử dụng var để ref vào obj 
-var Rounter = Express.Router()
+var Rounter = express.Router()
 function Reftocontroller_Store(app) {
     Rounter.post('/check-user-login', storeController.checkUserLogin);
     Rounter.post('/create-user', storeController.createUser);
