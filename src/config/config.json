@@ -1,11 +1,10 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "testdbstore",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "timezone": "+7:00"
+    "username": "sql12664174",
+    "password": "8v71UFIVEW",
+    "database": "sql12664174",
+    "host": "sql12.freesqldatabase.com",
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",
